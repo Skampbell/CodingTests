@@ -16,12 +16,7 @@ For a = [2, 4, 3, 5, 1], the output should be solution(a) = -1.
 """
 
 def getFirstDuplicate(in_arr):
-    set_ = set()
-    for item in in_arr:
-        if item in set_:
-            return item
-        set_.add(item)
-    return -1
+    pass
 
 
 def test():
