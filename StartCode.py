@@ -1,7 +1,7 @@
 # Interview - Coding Exam
 #########################
 # Using Python, implement code to read data from raw_data.txt
-# Manipulate the data output an excel file with the following criteria:
+# Manipulate the data output and excel file with the following criteria:
 #   (1) Each line of data is represented by a row
 #   (2) Must only contain numerical values (ignore any corrupt values)
 #   (3) Ignore empty lines
