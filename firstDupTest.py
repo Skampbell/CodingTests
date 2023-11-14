@@ -6,13 +6,13 @@ smaller index than the second occurrence of the other number does. If there are 
 
 Example
 
-For in_arr = [2, 1, 3, 5, 3, 2], the output should be getFirstDuplicate(in_arr) = 3.
+For in_arr = [2, 1, 3, 5, 3, 2], the output for getFirstDuplicate(in_arr) should be = 3.
+    There are 2 duplicates: numbers 2 and 3. The second occurrence of 3 has a 
+    smaller index than the second occurrence of 2 does, so the answer is 3.
 
-There are 2 duplicates: numbers 2 and 3. The second occurrence of 3 has a smaller index than the second occurrence of 2 does, so the answer is 3.
+For in_arr = [2, 2], the output for getFirstDuplicate(in_arr) should be = 2;
 
-For in_arr = [2, 2], the output should be getFirstDuplicate(in_arr) = 2;
-
-For in_arr = [2, 4, 3, 5, 1], the output should be getFirstDuplicate(in_arr) = -1.
+For in_arr = [2, 4, 3, 5, 1], the output for getFirstDuplicate(in_arr) should be = -1;
 """
 
 def getFirstDuplicate(in_arr: list[int]) -> int:
